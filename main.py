@@ -7,7 +7,7 @@ from email.message import EmailMessage
 
 # Get username and password from environmental variables on system
 GMAIL_USER = os.environ.get('GMAIL_USER')
-GMAIL_PW = os.environ.get('GMAIL_PW')
+GMAIL_PW = os.environ.get('GMAIL_PASS')
 
 # Add arguments to script to run on terminal
 parser = argparse.ArgumentParser(description="Sends an email w/attachments")
